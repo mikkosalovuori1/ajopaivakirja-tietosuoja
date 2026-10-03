@@ -1,0 +1,1 @@
+# ajopaivakirja-tietosuoja
