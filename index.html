@@ -20,44 +20,68 @@
 <body>
 <main>
 <h1>Ajopäiväkirja – tietosuojaseloste</h1>
-<p class="meta">Päivitetty 3.10.2026. <a href="#en">In English</a></p>
+<p class="meta">Päivitetty 4.10.2026. <a href="#en">In English</a></p>
 
 <h2>Lyhyesti</h2>
-<p>Ajopäiväkirja ei kerää, myy eikä lähetä tietojasi kehittäjälle tai kolmansille osapuolille. Sovelluksella ei ole omaa palvelinta, mainoksia eikä analytiikkaa.</p>
+<p>Ajopäiväkirja ei kerää, myy eikä lähetä tietojasi kehittäjälle tai kolmansille osapuolille. Sovelluksella ei ole omaa palvelinta, käyttäjätiliä, mainoksia eikä analytiikkaa. Tiedot ovat vain puhelimessasi ja halutessasi omassa iCloud-tilissäsi.</p>
+
+<h2>Kuka vastaa</h2>
+<p>Sovelluksen kehittäjä on Mikko Salovuori, <a href="mailto:mikko.salovuori@gmail.com">mikko.salovuori@gmail.com</a>. Koska tietosi eivät missään vaiheessa siirry kehittäjälle, kehittäjä ei ole niiden rekisterinpitäjä eikä voi nähdä, muuttaa tai luovuttaa niitä. Jos kirjaat sovellukseen muiden henkilöiden tietoja (esim. kuljettajien tai asiakkaiden nimiä), vastaat itse niiden käsittelystä.</p>
 
 <h2>Mitä tietoja sovellus käsittelee</h2>
 <ul>
-  <li><strong>Ajot</strong>: ajankohdat, mittarilukemat, lähtö- ja määräpaikat, reitti, tarkoitus, asiakas, kuljettaja ja korvaukseen liittyvät tiedot.</li>
-  <li><strong>Sijainti</strong>: ajon aikana GPS-reitti ja osoitteet. Automaattinen tunnistus käyttää sijaintia ja liiketunnistinta taustalla, jos otat sen käyttöön.</li>
-  <li><strong>Ajoneuvot, paikat, asiakkaat, työnantajat ja kuitit</strong> (myös kuittien kuvat), jotka itse syötät.</li>
+  <li><strong>Ajot</strong>: ajankohdat, mittarilukemat, lähtö- ja määräpaikat, reitti, tarkoitus, asiakas, kuljettaja, matkustajien lukumäärä ja korvaukseen liittyvät tiedot sekä ajojen muutoshistoria.</li>
+  <li><strong>Sijainti</strong>: ajon aikana GPS-reitti ja osoitteet. Jos otat automaattisen tunnistuksen käyttöön, sovellus käyttää sijaintia myös taustalla.</li>
+  <li><strong>Liike ja kuntoilu</strong>: liiketunnistimen tietoa käytetään vain sen tunnistamiseen, milloin olet autossa. Liiketietoja ei tallenneta.</li>
   <li><strong>Autoyhteys</strong>: yhdistetyn Bluetooth- tai CarPlay-laitteen nimi automaattista tunnistusta varten.</li>
+  <li><strong>Kamera ja kuvat</strong>: kuittien kuvat. Kuitin teksti luetaan puhelimessa (Apple Vision), eikä kuvaa lähetetä minnekään.</li>
+  <li><strong>Ajoneuvot, paikat, asiakkaat, työnantajat, tankkaukset ja kuitit</strong>, jotka itse syötät.</li>
 </ul>
 
 <h2>Missä tiedot säilytetään</h2>
 <ul>
   <li>Puhelimessasi sekä halutessasi <strong>omassa iCloud-tilissäsi</strong> (Apple CloudKit), jotta tiedot siirtyvät uuteen laitteeseen. Kehittäjä ei pääse iCloud-tietoihisi.</li>
-  <li>Tekemäsi varmuuskopiot, PDF- ja Excel-tiedostot tallentuvat sinne, minne ne itse tallennat tai lähetät (esim. sähköposti työnantajalle).</li>
+  <li>Tekemäsi varmuuskopiot, PDF-, Excel- ja CSV-tiedostot tallentuvat sinne, minne ne itse tallennat tai lähetät (esim. sähköposti työnantajalle).</li>
 </ul>
 
 <h2>Käyttötarkoitus</h2>
 <p>Tietoja käytetään vain ajopäiväkirjan pitämiseen Verohallinnon vaatimusten mukaisesti, kilometrikorvausten laskemiseen ja raporttien tekemiseen.</p>
 
-<h2>Apple-palvelut</h2>
-<p>Osoitteet haetaan Applen karttapalvelusta (MapKit / CLGeocoder), jolle välitetään sijaintipiste. Applen tietosuojakäytäntö: <a href="https://www.apple.com/fi/legal/privacy/">apple.com/fi/legal/privacy</a></p>
+<h2>Applen palvelut</h2>
+<p>Sovellus käyttää seuraavia Applen palveluita, joihin sovelletaan <a href="https://www.apple.com/fi/legal/privacy/">Applen tietosuojakäytäntöä</a>:</p>
+<ul>
+  <li><strong>Kartat ja osoitteet</strong> (MapKit): osoitteen hakemiseksi Applelle välitetään sijaintipiste tai osoitehakuun kirjoittamasi teksti.</li>
+  <li><strong>iCloud</strong> (CloudKit): tietojen synkronointi omaan tiliisi.</li>
+  <li><strong>App Store</strong>: tilausten maksut käsittelee Apple. Kehittäjä saa Applelta vain myyntiraportteja, joista et ole tunnistettavissa.</li>
+  <li><strong>Kaatumisraportit</strong>: jos olet sallinut iOS:n asetuksissa tietojen jakamisen kehittäjien kanssa, Apple voi välittää kehittäjälle anonyymejä kaatumis- ja käyttötilastoja. Voit muuttaa tätä kohdassa Asetukset → Tietosuoja ja turvallisuus → Analyysi ja parannukset.</li>
+</ul>
 
 <h2>Säilytysaika ja poistaminen</h2>
-<p>Ajopäiväkirja on kirjanpitoaineistoa, joka on säilytettävä kuusi vuotta. Voit poistaa kaikki tiedot poistamalla sovelluksen ja sen tiedot iCloudista (Asetukset → nimesi → iCloud → Hallitse tallennustilaa → Ajopäiväkirja).</p>
+<p>Ajopäiväkirja on verotukseen liittyvää aineistoa, joka on yleensä säilytettävä vähintään kuusi vuotta verovuoden päättymisestä. Säilytyksestä vastaat itse. Voit poistaa yksittäisiä tietoja sovelluksessa tai kaikki tiedot poistamalla sovelluksen ja sen iCloud-tiedot (Asetukset → nimesi → iCloud → Hallitse tallennustilaa → Ajopäiväkirja). Ota tarvittaessa ensin varmuuskopio tai PDF-raportti.</p>
 
 <h2>Oikeutesi</h2>
-<p>Koska tiedot ovat vain sinun hallussasi, voit tarkastella, korjata ja poistaa niitä sovelluksessa milloin tahansa.</p>
+<p>Tiedot ovat vain sinun hallussasi, joten voit tarkastella, korjata, viedä (Excel, CSV, varmuuskopio) ja poistaa niitä sovelluksessa milloin tahansa. Jos katsot, että henkilötietojasi on käsitelty lainvastaisesti, voit tehdä valituksen <a href="https://tietosuoja.fi">tietosuojavaltuutetulle</a>.</p>
 
-<h2>Yhteystiedot</h2>
-<p>Kysymykset tietosuojasta: Mikko Salovuori, sähköposti App Storen tukisivulla.</p>
+<h2>Muutokset</h2>
+<p>Jos selosteeseen tehdään olennaisia muutoksia, päivitetty versio julkaistaan tällä sivulla.</p>
+
+<h2>Yhteystiedot ja tuki</h2>
+<p>Mikko Salovuori, <a href="mailto:mikko.salovuori@gmail.com">mikko.salovuori@gmail.com</a>. Samaan osoitteeseen voit lähettää myös sovellusta koskevat kysymykset ja palautteen.</p>
 
 <hr>
 
 <h1 id="en" lang="en">Ajopäiväkirja – Privacy Policy</h1>
-<p lang="en">Ajopäiväkirja does not collect, sell or transmit your data to the developer or third parties. There is no server, advertising or analytics. Trips, locations, vehicles, receipts and employer details stay on your device and, if enabled, in your own iCloud account (CloudKit), which the developer cannot access. Addresses are looked up with Apple's map services. Delete the app and its iCloud data to remove everything.</p>
+<div lang="en">
+<p class="meta">Updated 4 October 2026.</p>
+<p><strong>In short.</strong> Ajopäiväkirja does not collect, sell or transmit your data to the developer or any third party. There is no server, user account, advertising or analytics. Your data stays on your phone and, if you enable it, in your own iCloud account.</p>
+<p><strong>Who is responsible.</strong> The app is developed by Mikko Salovuori, <a href="mailto:mikko.salovuori@gmail.com">mikko.salovuori@gmail.com</a>. Because your data never reaches the developer, the developer is not its controller and cannot see, change or disclose it. If you enter other people's details (such as drivers' or clients' names), you are responsible for that data.</p>
+<p><strong>Data the app processes.</strong> Trips (times, odometer readings, start and end locations, route, purpose, client, driver, number of passengers, compensation details and change history); location during trips and, if automatic detection is enabled, in the background; motion activity, used only to detect driving and not stored; the name of the connected Bluetooth or CarPlay device; receipt photos, whose text is read on the device with Apple Vision and never uploaded; and vehicles, places, clients, employers, fuel-ups and receipts you enter.</p>
+<p><strong>Storage.</strong> On your device and, optionally, in your own iCloud account (Apple CloudKit), which the developer cannot access. Exports and backups go wherever you save or send them.</p>
+<p><strong>Apple services.</strong> Maps (a location point or your search text is sent to Apple to look up addresses), iCloud, App Store payments (the developer only receives sales reports that do not identify you), and crash reports if you have chosen to share analytics with developers in iOS Settings. See <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
+<p><strong>Retention and deletion.</strong> A driving log is tax-related material that usually must be kept for at least six years after the end of the tax year; you are responsible for keeping it. Delete individual items in the app, or everything by deleting the app and its iCloud data.</p>
+<p><strong>Your rights.</strong> You can view, correct, export and delete your data in the app at any time. You may lodge a complaint with the <a href="https://tietosuoja.fi/en">Finnish Data Protection Ombudsman</a>.</p>
+<p><strong>Contact and support.</strong> Mikko Salovuori, <a href="mailto:mikko.salovuori@gmail.com">mikko.salovuori@gmail.com</a></p>
+</div>
 </main>
 </body>
 </html>
